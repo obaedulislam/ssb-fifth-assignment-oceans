@@ -147,7 +147,6 @@ header {
     background-color: #5a5a5a;
     color: #fff;
 }
-
 .slider-section .single-slider .slider-content a i {
     margin-left: 20px;
     font-size: 23px;
@@ -188,8 +187,8 @@ header {
     margin-top:-14px;
 }
 .slider-section.owl-theme .owl-dots .owl-dot span {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     background: #0a0e17;
     font-size: 30px;
 }
