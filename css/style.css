@@ -1,0 +1,475 @@
+/* ====Common CSS Start==== */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* ====Common CSS End==== */
+
+
+
+/* ====Header CSS Start==== */
+header {
+    background-color: #121b2a;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0 6px 7px 0 rgb(0 0 0 / 22%);
+}
+.header-container{
+    margin: 0 auto;
+    width: 85%;
+    min-height: 110px;
+}
+.header-container .logo {
+    width: 15%;
+    float: left;
+    margin: 12px 0px;
+}
+.header-container .logo img{
+    width: 100%;
+}
+.header-container .menubar{
+    width: 70%;
+    float: right;
+}
+.header-container .menubar .login{
+    width: 100%;
+    float: right;
+}
+.header-container .menubar .login ul{
+    float: right;
+}
+.header-container .menubar .login ul li{
+    float: left;
+    list-style: none;
+}
+.header-container .menubar .login ul li a{
+    padding: 8px 15px;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    word-spacing: 3px;
+}
+.header-container .menubar .login ul li:nth-child(2) a{
+    background-color: #0078bd;
+    color: #fff;
+}
+.header-container .menubar .login ul li i{
+    padding-right: 10px;
+}
+.header-container .menubar .menu {
+    margin: 20px 0px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+.header-container .menubar .menu ul {
+    float: right;
+    margin-top: 10px;
+}
+.header-container .menubar .menu ul li{
+    list-style: none;
+    float: left;
+    margin-left: 50px ;
+}
+.header-container .menubar .menu ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+.header-container .menubar .menu ul li a:hover{
+    color: #0077bc;
+}
+/* ====Header CSS End==== */
+
+
+
+/* ====Banner CSS Start==== */
+.slider-section{
+    width: 100%;
+    background-color: #121b2c;
+    padding-top: 95px;
+}
+.slider-section .single-slider {
+    width: 100%;
+    min-height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.slider-section .single-slider  .slider-content{
+    width: 50%;
+    position: absolute;
+    top:40%;
+    left:8%;
+}
+.slider-section .single-slider .slider-content h3 {
+    font-size: 42px;
+    font-weight: 100;
+    color: #fff;
+}
+.slider-section .single-slider .slider-content h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0075bb;
+}
+.slider-section .single-slider .slider-content p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #fff;
+    padding-right: 115px;
+}
+.slider-section .single-slider .slider-content a {
+    margin-top: 32px;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    transition: .5s;
+}
+.slider-section .single-slider .slider-content a:hover {
+    background-color: #5a5a5a;
+    color: #fff;
+}
+
+.slider-section .single-slider .slider-content a i {
+    margin-left: 20px;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    color: #0079bd;
+}
+.slider-section .slider-content a:hover i {
+    color: #fff;
+}
+/**Carosel Section**/
+.slider-section.owl-theme .owl-theme .owl-nav {
+    margin-top: 0px;
+}
+.slider-section.owl-theme .owl-nav .owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+.slider-section.owl-theme .owl-nav .owl-prev span {
+    font-size: 70px;
+    font-weight: bolder;
+    color: #0d111a;
+    text-shadow: 0.8px 0.3px #fff;
+}
+.slider-section.owl-theme .owl-nav .owl-next{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+.slider-section.owl-theme .owl-nav .owl-next span{
+    font-size: 70px;
+    font-weight: bolder;
+    color: #0d111a;
+    text-shadow: .8px .3px #fff;
+}
+.slider-section.owl-theme .owl-dots{
+    margin-top:-14px;
+}
+.slider-section.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    background: #0a0e17;
+    font-size: 30px;
+}
+.slider-section.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #0078bb;
+}
+/* ====Banner CSS End==== */
+
+
+
+/* ====Service CSS Start==== */
+.service-container {
+    background-color: #121b2c;
+}
+.service-container .all-service{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0px 0px 40px;
+}
+.service-container .all-service .single-service {
+    width: 29.6%;
+    padding: 20px;
+    display: inline-block;
+    overflow: hidden;
+    border-right: 2px solid #1a2430;
+}
+.service-container .all-service .single-service:last-child {
+    border-right: 0px;
+}
+.single-service .service-head{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    min-height: 110px;
+    padding: 15px 18px 0px;
+}
+.single-service .service-head img{
+    width: 20%;
+    float: left;
+}
+.single-service .service-head .head-content {
+    width: 72%;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 18px 0px;
+}
+.single-service .service-head .head-content h3:first-child{
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+}
+.single-service .service-head .head-content h3:last-child{
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0178bc;
+}
+.single-service .service-dsc {
+    padding: 15px 18px 0px;
+    color: #fff;
+    line-height: 25px;
+}
+/* ====Service CSS End==== */
+
+
+
+/* ====Contact CSS Start==== */
+.contact-container{
+    background-color: #040811;
+    color: #fff;
+    overflow: hidden;
+}
+.all-contact{
+    margin: 0 auto;
+    width: 90%;
+    min-height: 250px;
+    padding: 40px 0px;
+}
+.all-contact .address {
+    width: 30%;
+    float: left;
+    padding: 28px 0px 0px 35px;
+}
+.address h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.address h4 span{
+    font-weight: 700;
+    color: #0376b7;
+}
+.address address p{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #b1b5b8;
+    line-height: 20px;
+}
+.address address pre p:last-child{
+    line-height: 45px;
+}
+.all-contact .testimonial{
+    width: 30%;
+    float: left;
+    position: relative;
+    padding: 0px 15px;
+}
+.testimonial .testimonial-quote {
+    background-color: #0c1019;
+    padding: 28px;
+    border-radius: 8px;
+}
+.testimonial .testimonial-quote h4{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.testimonial .testimonial-quote h4 span{
+    font-weight: 700;
+    color: #0376b7;
+}
+.testimonial .testimonial-quote q{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #b1b5b8;
+    line-height: 20px;
+}
+.testimonial h5{
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 20px 0px 0px 20px;
+}
+.testimonial p{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #b1b5b8;
+    line-height: 20px;
+    margin: 0px 0px 0px 20px;
+}
+.testimonial .triangle {
+    border-top: 25px solid transparent;
+    border-left: 60px solid #0c1019;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
+.all-contact .oceans-app{
+    width: 34%;
+    float: left;
+}
+.oceans-app .app-img {
+    width: 90%;
+    margin: 0 auto;
+}
+.oceans-app .app-img img{
+    width: 37%;
+    float: left;
+}
+.oceans-app .app-img .app-action {
+    width: 53%;
+    float: left;
+    padding: 0px 16px;
+}
+ .oceans-app .app-img .app-action h4{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+ }
+ .oceans-app .app-img .app-action h4.e-app{
+    font-weight: 700;
+    color: #0376b7;
+    margin-bottom: 10px;
+ }
+ .oceans-app .app-img .app-action .app-button {
+    margin-top: 20px;
+    width: 90%;
+    height: 40px;
+    padding: 10px 13px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: .5s;
+}
+ .oceans-app .app-img .app-action .app-button:hover{
+    background-color: #5a5a5a;
+    color: #fff;
+}
+ .oceans-app .app-img .app-action .app-button .app-icon{
+     width: 20%;
+     float: left;
+ }
+ .oceans-app .app-img .app-action .app-button .app-icon i{
+     font-size: 40px;
+ }
+ .oceans-app .app-img .app-action .app-button .app-content{
+     width: 78%;
+     float: left;
+ }
+ .oceans-app .app-img .app-action .app-button .app-content p{
+     font-size: 11px;
+     font-weight: bolder;
+ }
+ .oceans-app .app-img .app-action .app-button .app-content h3{
+     font-size: 26px;
+    font-weight: bold;
+ }
+/* ====Contact CSS End==== */
+
+
+
+/* ====Footer CSS Start==== */
+footer{
+    background-color: #121b2c;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+}
+.footer-container .footer-menu{
+    width: 60%;
+    float: left;
+    color: #caccce;
+    padding: 30px 0px;
+}
+.footer-menu ul{
+    padding-bottom: 20px;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #feffff;;
+}
+.footer-menu ul li a{
+    font-weight: 100;
+    text-decoration: none;
+    color: #caccce;
+    display: inline-block;
+    transition: .5s;
+}
+.footer-menu ul li:first-child {
+    padding: 0 20px 0px 0px;
+}
+.footer-menu ul li:last-child{
+    padding-right: 0px;
+    border-right: none;
+}
+.footer-menu ul li a:hover{
+    color: #0077bc;
+}
+.footer-container .footer-logo {
+    width: 36%;
+    float: left;
+    padding: 20px 0px;
+    margin-left: 45px;
+}
+.footer-logo .symbian-logo{
+    width: 45%;
+    display: inline-block;
+    padding: 0;
+}
+.footer-logo .oceans-logo{
+    width: 45%;
+    display: inline-block;
+}
+/* ====Footer CSS End==== */
+
