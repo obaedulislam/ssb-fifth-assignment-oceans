@@ -10,10 +10,10 @@
 
 /* ====Header CSS Start==== */
 header {
-    background-color: #121b2a;
-    overflow: hidden;
-    position: fixed;
     width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #121b2a;
     top: 0;
     z-index: 9999;
     box-shadow: 0 6px 7px 0 rgb(0 0 0 / 22%);
@@ -24,9 +24,9 @@ header {
     min-height: 110px;
 }
 .header-container .logo {
+    margin: 12px 0;
     width: 15%;
     float: left;
-    margin: 12px 0px;
 }
 .header-container .logo img{
     width: 100%;
@@ -63,19 +63,19 @@ header {
     padding-right: 10px;
 }
 .header-container .menubar .menu {
-    margin: 20px 0px;
+    margin: 20px 0;
     width: 100%;
     display: inline-block;
     overflow: hidden;
 }
 .header-container .menubar .menu ul {
-    float: right;
     margin-top: 10px;
+    float: right;
 }
 .header-container .menubar .menu ul li{
-    list-style: none;
+    margin-left: 50px;
     float: left;
-    margin-left: 50px ;
+    list-style: none;
 }
 .header-container .menubar .menu ul li a{
     font-size: 16px;
@@ -95,15 +95,15 @@ header {
 /* ====Banner CSS Start==== */
 .slider-section{
     width: 100%;
-    background-color: #121b2c;
     padding-top: 95px;
+    background-color: #121b2c;
 }
 .slider-section .single-slider {
     width: 100%;
+    position: relative;
     min-height: 600px;
     background-size: 100%;
     background-repeat: no-repeat;
-    position: relative;
 }
 .slider-section .single-slider  .slider-content{
     width: 50%;
@@ -159,7 +159,7 @@ header {
 }
 /**Carosel Section**/
 .slider-section.owl-theme .owl-theme .owl-nav {
-    margin-top: 0px;
+    margin-top: 0;
 }
 .slider-section.owl-theme .owl-nav .owl-prev {
     position: absolute;
@@ -206,7 +206,7 @@ header {
 .service-container .all-service{
     margin: 0 auto;
     width: 90%;
-    padding: 0px 0px 40px;
+    padding: 0 0 40px;
 }
 .service-container .all-service .single-service {
     width: 29.6%;
@@ -216,24 +216,24 @@ header {
     border-right: 2px solid #1a2430;
 }
 .service-container .all-service .single-service:last-child {
-    border-right: 0px;
+    border-right: 0;
 }
 .single-service .service-head{
-    display: block;
     width: 100%;
+    padding: 15px 18px 0;
+    display: block;
     overflow: hidden;
     min-height: 110px;
-    padding: 15px 18px 0px;
 }
 .single-service .service-head img{
     width: 20%;
     float: left;
 }
 .single-service .service-head .head-content {
-    width: 72%;
-    display: inline-block;
     margin-left: 20px;
-    padding: 18px 0px;
+    width: 72%;
+    padding: 18px 0;
+    display: inline-block;
 }
 .single-service .service-head .head-content h3:first-child{
     line-height: 35px;
@@ -248,9 +248,9 @@ header {
     color: #0178bc;
 }
 .single-service .service-dsc {
-    padding: 15px 18px 0px;
-    color: #fff;
+    padding: 15px 18px 0;
     line-height: 25px;
+    color: #fff;
 }
 /* ====Service CSS End==== */
 
@@ -266,12 +266,12 @@ header {
     margin: 0 auto;
     width: 90%;
     min-height: 250px;
-    padding: 40px 0px;
+    padding: 40px 0;
 }
 .all-contact .address {
     width: 30%;
     float: left;
-    padding: 28px 0px 0px 35px;
+    padding: 28px 0 0 35px;
 }
 .address h4{
     margin-bottom: 20px;
@@ -296,20 +296,20 @@ header {
 }
 .all-contact .testimonial{
     width: 30%;
-    float: left;
     position: relative;
-    padding: 0px 15px;
+    float: left;
+    padding: 0 15px;
 }
 .testimonial .testimonial-quote {
-    background-color: #0c1019;
     padding: 28px;
+    background-color: #0c1019;
     border-radius: 8px;
 }
 .testimonial .testimonial-quote h4{
+    margin-bottom: 20px;
     font-size: 25px;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-bottom: 20px;
 }
 .testimonial .testimonial-quote h4 span{
     font-weight: 700;
@@ -324,19 +324,19 @@ header {
     line-height: 20px;
 }
 .testimonial h5{
+    margin: 20px 0 0 20px;
     font-style: normal;
     letter-spacing: 1px;
     line-height: 20px;
-    margin: 20px 0px 0px 20px;
 }
 .testimonial p{
+    margin: 0 0 0 20px;
     font-size: 13px;
     font-style: normal;
     font-weight: 100;
     letter-spacing: 1px;
     color: #b1b5b8;
     line-height: 20px;
-    margin: 0px 0px 0px 20px;
 }
 .testimonial .triangle {
     border-top: 25px solid transparent;
@@ -361,7 +361,7 @@ header {
 .oceans-app .app-img .app-action {
     width: 53%;
     float: left;
-    padding: 0px 16px;
+    padding: 0 16px;
 }
  .oceans-app .app-img .app-action h4{
     font-size: 25px;
@@ -369,9 +369,9 @@ header {
     letter-spacing: 1px;
  }
  .oceans-app .app-img .app-action h4.e-app{
+    margin-bottom: 10px;
     font-weight: 700;
     color: #0376b7;
-    margin-bottom: 10px;
  }
  .oceans-app .app-img .app-action .app-button {
     margin-top: 20px;
@@ -404,7 +404,7 @@ header {
      font-weight: bolder;
  }
  .oceans-app .app-img .app-action .app-button .app-content h3{
-     font-size: 26px;
+    font-size: 26px;
     font-weight: bold;
  }
 /* ====Contact CSS End==== */
@@ -424,7 +424,7 @@ footer{
     width: 60%;
     float: left;
     color: #caccce;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 .footer-menu ul{
     padding-bottom: 20px;
@@ -432,10 +432,7 @@ footer{
 .footer-menu ul li{
     list-style: none;
     display: inline-block;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
     border-right: 1px solid #feffff;;
 }
 .footer-menu ul li a{
@@ -446,20 +443,20 @@ footer{
     transition: .5s;
 }
 .footer-menu ul li:first-child {
-    padding: 0 20px 0px 0px;
+    padding: 0 20px 0 0;
 }
 .footer-menu ul li:last-child{
-    padding-right: 0px;
+    padding-right: 0;
     border-right: none;
 }
 .footer-menu ul li a:hover{
     color: #0077bc;
 }
 .footer-container .footer-logo {
+    margin-left: 45px;
     width: 36%;
     float: left;
-    padding: 20px 0px;
-    margin-left: 45px;
+    padding: 20px 0;
 }
 .footer-logo .symbian-logo{
     width: 45%;
